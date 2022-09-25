@@ -32,7 +32,7 @@ Faciliate insurance solutions for all incomes and situations to prevent drivers 
 |**Proposed Features**|Feature Description|
 |:--|:--|
 |Driving score weighted against intoxcation levels| know the likelihood of some person X causing some incident Y, while intoxicated at Z level.
-|Financial capability| leveraging income or DTI(Debt-To-Income ratio), etc. to determing maximum policy affordable 
+|Financial capability| leveraging income or DTI(Debt-To-Income ratio), etc. to determing maximum policy affordable and adjusting policy to fit clients budget, to reduce the odds of a lapse in policy.
 
 Drivers will be able to improve this score overtime and this score may be affected by a variety of factors.
 
