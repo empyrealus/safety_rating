@@ -1,3 +1,4 @@
+![A logo that may not show](https://phyziro.com/images/PhyziroLogo.png)
 # Driver Safety Ratings (DSR)
 
 ``bash
@@ -33,7 +34,8 @@ Faciliate insurance solutions for all incomes and situations to prevent drivers 
 Drivers will be able to improve this score overtime and this score may be affected by a variety of factors.
 
 __Note__
-No driver should **never** be denied coverage or charged so excessively that coverage be deemed unobtainable, when using the score profile to assess liability.
+
+> A driver should **never** be denied coverage or charged so excessively that coverage be deemed unobtainable, when using the score profile to assess liability.
 
 
 # Features Format and View in Tubular format
