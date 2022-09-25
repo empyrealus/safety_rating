@@ -12,7 +12,7 @@ This score would adjust similar to a credit rating; as time passes and data is a
 |**Proposed Features**|Feature Description|
 |:--|:--|
 |Driving score weighted against intoxcation levels| know the likelihood of some person X causing some incident Y, while intoxicated at Z level.
-|Financial capability| leveraging maximum policy affordable based on a variety of factors e.g. income or DTI(Debt-To-Income ratio), etc.
+|Financial capability| leveraging income or DTI(Debt-To-Income ratio), etc. to determing maximum policy affordable 
 
 Drivers will be able to improve this score overtime and this score may be affected by a variety of factors.
 
