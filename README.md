@@ -9,7 +9,7 @@ Abstract:
 Provide a composite score for the purposes of indicating as to whether a driver is a 'safe' driver or not.
 This score would adjust similar to a credit rating; as time passes and data is appended, the users driver rating will change overtime.
 
-|**Proposed Features**|
+|**Proposed Features**|Feature Description|
 |:--|:--|
 |Driving score weighted against intoxcation levels| know the likelihood of some person X causing some incident Y, while intoxicated at Z level.
 |Financial capability| leveraging maximum policy affordable based on a variety of factors e.g. income or DTI(Debt-To-Income ratio), etc.
