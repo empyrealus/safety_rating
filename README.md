@@ -26,7 +26,7 @@ __
 Provide a Driver Safety Rating (DSR) for companies and drivers -- simila to a credit score
 
 
-Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed insurance algorithms
+Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed insurance algorithms producing inconsiderate prices.
 
 
 |**Proposed Features**|Feature Description|
