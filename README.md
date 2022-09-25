@@ -13,10 +13,16 @@ This score would adjust similar to a credit rating; as time passes and data is a
 
 __
 |Mission Statement|
+
+
 Providing a standardized industry base score for the sakes of faciliting transparent pricing, affordability and incentivizing safe driving to reduce the liklihood of someone engaging in risky driving behavior.
+
+For insurance insurance should follow people and not specifically the car; a user with multiple cars should not need multiple policies.
 
 __
 |Mission Objective|
+
+
 Provide a Driver Safety Rating (DSR) for companies and drivers -- simila to a credit score
 
 
