@@ -37,9 +37,9 @@ No driver should ever be denied coverage or charged so excessively that coverage
 Features Format and View in Tubular format
 
 
-|Drivers_Name|Geo_location|Age|Gender|Relationship|Ethnicity|Education_Level|Education_Specializtion|Annual_Income|Debt|DTI_ratio|Intoxication_risk|Disability|Vision|
+|Drivers_Name|Geo_location|Age|Gender|Relationship|Ethnicity|Education_Level|Education_Specializtion|Annual_Income|Debt|DTI_ratio|Intoxication_risk|Disability|Vision|Criminal_History|Criminal_Status|
 |:--|:--|:-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|Alyssa Doe|Houston, Tx|24|Female|Married|Multiple Race|Bachelor|Arts|300000|33777|0.11259|0.09|None|2020|
+|Alyssa Doe|Houston, Tx|24|Female|Married|Multiple Race|Bachelor|Arts|300000|33777|0.11259|0.09|None|2020|None|None|
 
 ---
 Team
