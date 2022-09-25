@@ -8,6 +8,17 @@
 Abstract: 
 Provide a composite score for the purposes of indicating as to whether a driver is a 'safe' driver or not.
 This score would adjust similar to a credit rating; as time passes and data is appended, the users driver rating will change overtime.
+__
+|Mission Statement|
+__
+Providing a standardized industry base score for the sakes of faciliting transparent pricing, affordability and incentivizing safe driving to reduce the liklihood of someone engaging in risky driving behavior.
+
+__
+|Mission Objective|
+__
+Provide a Driver Safety Rating (DSR) for companies and drivers -- simila to a credit score
+Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed rating system
+
 
 |**Proposed Features**|Feature Description|
 |:--|:--|
@@ -23,6 +34,7 @@ No driver should ever be denied coverage or charged so excessively that coverage
 ---
 Team
 ---
+Team Name: Variant
 Rickey L. Hargrove Jr.
 
 Roberto ____ Jr.
