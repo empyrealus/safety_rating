@@ -18,7 +18,9 @@ Providing a standardized industry base score for the sakes of faciliting transpa
 __
 |Mission Objective|
 Provide a Driver Safety Rating (DSR) for companies and drivers -- simila to a credit score
-Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed rating system
+
+
+Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed insurance algorithms
 
 
 |**Proposed Features**|Feature Description|
