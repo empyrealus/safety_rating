@@ -51,7 +51,7 @@ Use Cases Table
 |2|UDPATE| CREATE PROCEDURE Select_Driver AS SELECT Drivers_Name FROM {table} WHERE state = @state GO; EXEC Select_Driver @state = EXISTS (UPDATE {table} SET Drivers_Name = 'Alyssa Doe' WHERE UiD == {iD}) | Update the name of the user (__expiremental/not-tested__ SQL)|
 |3|DELETE|EXEC Select_Driver @state = EXISTS (DELETE FROM {table} WHERE UiD == {iD})| (__Experimental Non-tested__)Delete Driver |
 |4|INSERT| Default value is 0, when table is built. There is no insert to perform.  | Add new miles driven|
-|5|UDPATE| CREATE INDEX driver_mileage ON {table} (Miles_driven); UPDATE {table} SET Miles_driven = SUM({new_miles}+{old_miles}) | Update the number of miles driven|
+|5|UDPATE| CREATE INDEX driver_mileage ON {table} (Miles_driven); UPDATE {table} SET Miles_driven = SUM({new_miles}+driver_mileage) | Update the number of miles driven|
 |6|DELETE|@| We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |7|INSERT|@|7|
 |8|UDPATE|@|7|
