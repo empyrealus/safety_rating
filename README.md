@@ -37,9 +37,9 @@ __Note__
 # Features Format and View in Tubular format
 
 
-|Drivers_Name|Geo_location|Global_Positioning|Age|Gender|Relationship|Children|Education_Level|Education_Specializtion|Annual_Income|Debt|DTI_ratio|Intoxication_risk|Disability|Vision|Criminal_History|Criminal_Status|Auto_Claims_for_Bodily_Injury|Auto_Claims_for_Property_Damage|Auto_Claims_for_uninsured_motorist_bodily_injury|Auto_Claims_for_comprehensive|Auto_Claims_for_collission|Miles_driven|GPS_Trackable|
-|:--|:--|:-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|Alyssa Doe|Houston, Tx|28.361136640146" N, 81.5087592601776" W|24|Female|Married|5|Bachelor|Arts|300000|33777|0.11259|0.09|None|2020|None|None|0|0|0|0|0|3400|False|
+|UiD|Drivers_Name|Geo_location|Global_Positioning|Age|Gender|Relationship|Children|Education_Level|Education_Specializtion|Annual_Income|Debt|DTI_ratio|Intoxication_risk|Disability|Vision|Criminal_History|Criminal_Status|Auto_Claims_for_Bodily_Injury|Auto_Claims_for_Property_Damage|Auto_Claims_for_uninsured_motorist_bodily_injury|Auto_Claims_for_comprehensive|Auto_Claims_for_collission|Miles_driven|GPS_Trackable|
+|:--|:--|:-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|777i143932|Alyssa Doe|Houston, Tx|28.361136640146" N, 81.5087592601776" W|24|Female|Married|5|Bachelor|Arts|300000|33777|0.11259|0.09|None|2020|None|None|0|0|0|0|0|3400|False|
 
 
 --
