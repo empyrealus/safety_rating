@@ -1,10 +1,6 @@
 ![A logo that may not show](https://phyziro.com/images/PhyziroLogo.png)
 # Driver Safety Ratings (DSR)
 
-``bash
- Testing
-``
-
 # Abstract: 
 Provide a composite score for the purposes of indicating as to whether a driver is a *safe* driver or not.
 
