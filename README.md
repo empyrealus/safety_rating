@@ -48,26 +48,26 @@ Use Cases Table
 |Case #|Type|Psuedo Statement|Use|
 |:--|:--|:--|:--|
 |1|INSERT| INSERT INTO {table} (Drivers_Name,Geo_Location,Age,etc.) VALUES ({Name},{Location},{Age},etc.)|Insert a new user|
-|2|UDPATE|SELECT Drivers_Name FROM {table} WHERE EXISTS (UPDATE Drivers_Name SET Drivers_Name = 'Alyssa Doe' WHERE UiD == {iD}) | Update the name of the user|
-|3|DELETE|SELECT Drivers_Name FROM {table} WHERE EXISTS (DELETE FROM {table} WHERE UiD == {iD})| Delete Driver |
-|4|INSERT|@|7|
-|5|UDPATE|@|7|
-|6|DELETE|@|7|
+|2|UDPATE| CREATE PROCEDURE Select_Driver AS SELECT Drivers_Name FROM {table} WHERE state = @state GO; EXEC Select_Driver @state = EXISTS (UPDATE {table} SET Drivers_Name = 'Alyssa Doe' WHERE UiD == {iD}) | Update the name of the user (__expiremental/not-tested__ SQL)|
+|3|DELETE|EXEC Select_Driver @state = EXISTS (DELETE FROM {table} WHERE UiD == {iD})| (__Experimental Non-tested__)Delete Driver |
+|4|INSERT| Default value is 0, when table is built. There is no insert to perform.  | Add new miles driven|
+|5|UDPATE| CREATE INDEX driver_mileage ON {table} (Miles_driven); UPDATE {table} SET Miles_driven = SUM({new_miles}+{old_miles}) | Update the number of miles driven|
+|6|DELETE|@| We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |7|INSERT|@|7|
 |8|UDPATE|@|7|
-|9|DELETE|@|7|
+|9|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |10|INSERT|@|7|
 |11|UDPATE|@|7|
-|12|DELETE|@|7|
+|12|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |13|INSERT|@|7|
 |14|UDPATE|@|7|
-|15|DELETE|@|7|
+|15|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |16|INSERT|@|7|
 |17|UDPATE|@|7|
-|18|DELETE|@|7|
+|18|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |19|INSERT|@|7|
 |20|UDPATE|@|7|
-|21|DELETE|@|7|
+|21|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 
 
 ---
