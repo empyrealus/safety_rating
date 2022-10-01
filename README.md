@@ -45,6 +45,35 @@ __Note__
 |:--|:--|:-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 |Alyssa Doe|Houston, Tx|28.361136640146" N, 81.5087592601776" W|24|Female|Married|5|Bachelor|Arts|300000|33777|0.11259|0.09|None|2020|None|None|0|0|0|0|0|3400|False|
 
+
+--
+Use Cases Table
+--
+|Case #|Type|Psuedo Statement|
+|:--|:--|:--|
+|1|INSERT|@|
+|2|UDPATE|@|
+|3|DELETE|@|
+|4|INSERT|@|
+|5|UDPATE|@|
+|6|DELETE|@|
+|7|INSERT|@|
+|8|UDPATE|@|
+|9|DELETE|@|
+|10|INSERT|@|
+|11|UDPATE|@|
+|12|DELETE|@|
+|13|INSERT|@|
+|14|UDPATE|@|
+|15|DELETE|@|
+|16|INSERT|@|
+|17|UDPATE|@|
+|18|DELETE|@|
+|19|INSERT|@|
+|20|UDPATE|@|
+|21|DELETE|@|
+
+
 ---
 Team
 ---
