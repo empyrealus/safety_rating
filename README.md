@@ -49,7 +49,7 @@ Use Cases Table
 |:--|:--|:--|:--|
 |1|INSERT| INSERT INTO {table} (Drivers_Name,Geo_Location,Age,etc.) VALUES ({Name},{Location},{Age},etc.)|Insert a new user|
 |2|UDPATE|SELECT Drivers_Name FROM {table} WHERE EXISTS (UPDATE Drivers_Name WHERE Drivers_Name == {Name}) | Update the name of the user|
-|3|DELETE|@|7|
+|3|DELETE|SELECT Drivers_Name FROM {table} WHERE EXISTS (DELETE FROM {table} WHERE Drivers_Name == {Name})| Delete Driver (would delete based upon unique identifier rather than name)|
 |4|INSERT|@|7|
 |5|UDPATE|@|7|
 |6|DELETE|@|7|
