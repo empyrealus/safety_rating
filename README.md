@@ -45,29 +45,29 @@ __Note__
 --
 Use Cases Table
 --
-|Case #|Type|Psuedo Statement|
-|:--|:--|:--|
-|1|INSERT|@|
-|2|UDPATE|@|
-|3|DELETE|@|
-|4|INSERT|@|
-|5|UDPATE|@|
-|6|DELETE|@|
-|7|INSERT|@|
-|8|UDPATE|@|
-|9|DELETE|@|
-|10|INSERT|@|
-|11|UDPATE|@|
-|12|DELETE|@|
-|13|INSERT|@|
-|14|UDPATE|@|
-|15|DELETE|@|
-|16|INSERT|@|
-|17|UDPATE|@|
-|18|DELETE|@|
-|19|INSERT|@|
-|20|UDPATE|@|
-|21|DELETE|@|
+|Case #|Type|Psuedo Statement|Use|
+|:--|:--|:--|:--|
+|1|INSERT| INSERT INTO {table} (Drivers_Name,Geo_Location,Age,etc.) VALUES ({Name},{Location},{Age},etc.)|Insert a new user|
+|2|UDPATE|SELECT Drivers_Name FROM {table} WHERE EXISTS (UPDATE Drivers_Name WHERE Drivers_Name == {Name}) | Update the name of the user|
+|3|DELETE|@|7|
+|4|INSERT|@|7|
+|5|UDPATE|@|7|
+|6|DELETE|@|7|
+|7|INSERT|@|7|
+|8|UDPATE|@|7|
+|9|DELETE|@|7|
+|10|INSERT|@|7|
+|11|UDPATE|@|7|
+|12|DELETE|@|7|
+|13|INSERT|@|7|
+|14|UDPATE|@|7|
+|15|DELETE|@|7|
+|16|INSERT|@|7|
+|17|UDPATE|@|7|
+|18|DELETE|@|7|
+|19|INSERT|@|7|
+|20|UDPATE|@|7|
+|21|DELETE|@|7|
 
 
 ---
