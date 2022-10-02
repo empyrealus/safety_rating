@@ -62,12 +62,12 @@ Use Cases Table
 |13|INSERT| Default value is 0, when table is built. There is no insert to perform. If an array is serialized into the database criminal history could be inserted like: $myArray = ['traffic ticket 1','traffic ticket 2']; $myArray = seralize($myArray); then using the array as the data value for an update. | Insert user criminal history |
 |14|UDPATE| UPDATE {table} SET Criminal_History = $myArray WHERE UiD == {iD}; | This will update the table to the new array of records|
 |15|DELETE| UPDATE {table} SET Criminal_History = NULL WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
-|16|INSERT|@|7|
-|17|UDPATE|@|7|
-|18|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
-|19|INSERT|@|7|
-|20|UDPATE|@|7|
-|21|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
+|16|INSERT|Default value is 0, when table is built. There is no insert to perform. |Insert a claim for property damage, using integers|
+|17|UDPATE|UPDATE {table} SET Auto_Claims_for_Property_Damage = {old_claims}+=1 WHERE UiD == {iD};| Update a claims integer|
+|18|DELETE|UPDATE {table} SET Auto_Claims_for_Property_Damage = NULL/0 WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
+|19|INSERT| Default value is 0, when table is built. There is no insert to perform. | Insert a users vision score|
+|20|UDPATE| UPDATE {table} SET Vision = '18/20' WHERE UiD == {iD};| Update a users vision score|
+|21|DELETE| UPDATE {table} SET Vision = '20/20' WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 
 
 ---
@@ -76,4 +76,4 @@ Team
 Team Name: Variant
 Rickey L. Hargrove Jr.
 
-Roberto ____ Jr.
+Roberto Urbina Jr.
