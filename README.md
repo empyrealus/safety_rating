@@ -54,11 +54,11 @@ Use Cases Table
 |5|UDPATE| CREATE INDEX driver_mileage ON {table} (Miles_driven); UPDATE {table} SET Miles_driven = SUM({new_miles}+driver_mileage) WHERE UiD == {iD}  | Update the number of miles driven|
 |6|DELETE| UPDATE {table} SET Miles_driven = 0 WHERE UiD == {iD}; | We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |7|INSERT| Default value is 0, when table is built. There is no insert to perform. | Insert new income|
-|8|UDPATE|@|7|
-|9|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
+|8|UDPATE|UPDATE {table} SET Annual_Income = 1000000 WHERE UiD == {iD}; |Update new income|
+|9|DELETE|UPDATE {table} SET Annual_Income = 0 WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |10|INSERT| Default value is 0, when table is built. There is no insert to perform. | Insert new Debt to income ratio.|
-|11|UDPATE|@|7|
-|12|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
+|11|UDPATE|UPDATE {table} SET Global_Positioning = {new_global_positioning} WHERE UiD == {iD};| Update global positioning of user|
+|12|DELETE|UPDATE {table} SET Global_Positioning = {0.00,0.00} WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |13|INSERT|@|7|
 |14|UDPATE|@|7|
 |15|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
