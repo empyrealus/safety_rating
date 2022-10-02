@@ -59,9 +59,9 @@ Use Cases Table
 |10|INSERT| Default value is 0, when table is built. There is no insert to perform. | Insert new Debt to income ratio.|
 |11|UDPATE|UPDATE {table} SET Global_Positioning = {new_global_positioning} WHERE UiD == {iD};| Update global positioning of user|
 |12|DELETE|UPDATE {table} SET Global_Positioning = {0.00,0.00} WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
-|13|INSERT|@|7|
-|14|UDPATE|@|7|
-|15|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
+|13|INSERT| Default value is 0, when table is built. There is no insert to perform. If an array is serialized into the database criminal history could be inserted like: $myArray = ['traffic ticket 1','traffic ticket 2']; $myArray = seralize($myArray); then using the array as the data value for an update. | Insert user criminal history |
+|14|UDPATE| UPDATE {table} SET Criminal_History = $myArray WHERE UiD == {iD}; | This will update the table to the new array of records|
+|15|DELETE| UPDATE {table} SET Criminal_History = NULL WHERE UiD == {iD};|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
 |16|INSERT|@|7|
 |17|UDPATE|@|7|
 |18|DELETE|@|We only want to perform a delete record on the driver. Since all data is related to the driver, we will perform an UPDATE to reset the values to their default, instead of DELETE.|
