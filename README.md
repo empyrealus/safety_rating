@@ -1,5 +1,5 @@
 ![A logo that may not show](https://phyziro.com/images/PhyziroLogo.png)
-# Driver Safety Ratings (DSR)
+# Driver Safety Ratings (DSR) - Database
 
 # Abstract: 
 Provide a composite score for the purposes of indicating as to whether a driver is a *safe* driver or not.
@@ -9,9 +9,9 @@ This score would adjust similar to a credit rating; as time passes and data is a
 
 # Mission Statement
 
-Providing a standardized industry base score for the sakes of faciliting transparent pricing, affordability and incentivizing safe driving to reduce the liklihood of someone engaging in risky driving behavior.
+Providing a standardized industry base score based on data used and generated, for the sakes of faciliting transparent pricing, affordability and incentivizing safe driving to reduce the liklihood of someone engaging in risky driving behavior.
 
-For insurance insurance should follow people and not specifically the car; a user with multiple cars should __not__ need multiple policies.
+For insurance, insurance should follow people and not specifically the car; a user with multiple cars should __not__ need multiple policies.
 
 
 # Mission Objective
