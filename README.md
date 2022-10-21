@@ -21,7 +21,7 @@ Provide a __Driver Safety Rating (DSR)__ for companies and drivers -- similar to
 
 Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed insurance algorithms producing inconsiderate prices.
 
-### Jobs -- Performance Purpose
+### Jobs
 - Maintain data (enter,update, and delete) data on drivers
 - Maintain data (enter,update, and delete) data on claims
 - Maintain data (enter,update, and delete) data on driving experience
