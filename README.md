@@ -65,11 +65,10 @@ __Note__
 ### Actors
 - Staff
 - Ogranizations (internal e.g. a different branch)
-- Organizations (external e.g. third-parties)
+- Organizations (external e.g. third-parties) -- accessed via API's, requests verified using access token
 - Drivers
 
 # Features Format and View in Tubular format
-
 
 |UiD|Drivers_Name|Geo_location|Global_Positioning|Age|Gender|Relationship|Children|Education_Level|Education_Specializtion|Annual_Income|Debt|DTI_ratio|Intoxication_risk|Disability|Vision|Criminal_History|Criminal_Status|Auto_Claims_for_Bodily_Injury|Auto_Claims_for_Property_Damage|Auto_Claims_for_uninsured_motorist_bodily_injury|Auto_Claims_for_comprehensive|Auto_Claims_for_collission|Miles_driven|GPS_Trackable|
 |:--|:--|:-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
