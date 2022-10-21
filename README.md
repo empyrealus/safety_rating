@@ -21,6 +21,18 @@ Provide a __Driver Safety Rating (DSR)__ for companies and drivers -- similar to
 
 Faciliate insurance solutions for all incomes and situations to prevent drivers from going uninsured or underinsured due to a malformed insurance algorithms producing inconsiderate prices.
 
+
+|**Proposed Features**|Feature Description|
+|:--|:--|
+|Driving score weighted against intoxcation levels| Know the likelihood of some person X causing some incident Y, while intoxicated at Z level.
+|Financial capability| Leveraging income or DTI(Debt-To-Income ratio), etc. to determing maximum policy affordable and adjusting policy to fit clients budget, to reduce the odds of a lapse in policy.
+
+Drivers will be able to improve this score overtime and this score may be affected by a variety of factors.
+
+__Note__
+
+> A driver should **never** be denied coverage or charged so excessively that coverage be deemed unobtainable, when using the score profile to assess liability.
+
 ### Jobs
 - Maintain data (enter,update, and delete) data on drivers
 - Maintain data (enter,update, and delete) data on claims
@@ -34,19 +46,6 @@ Faciliate insurance solutions for all incomes and situations to prevent drivers 
 - To report on drivers
 - To report on claims
 - To report on driving experience
-
-
-|**Proposed Features**|Feature Description|
-|:--|:--|
-|Driving score weighted against intoxcation levels| Know the likelihood of some person X causing some incident Y, while intoxicated at Z level.
-|Financial capability| Leveraging income or DTI(Debt-To-Income ratio), etc. to determing maximum policy affordable and adjusting policy to fit clients budget, to reduce the odds of a lapse in policy.
-
-Drivers will be able to improve this score overtime and this score may be affected by a variety of factors.
-
-__Note__
-
-> A driver should **never** be denied coverage or charged so excessively that coverage be deemed unobtainable, when using the score profile to assess liability.
-
 
 # Features Format and View in Tubular format
 
