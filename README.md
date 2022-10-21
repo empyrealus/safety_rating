@@ -11,7 +11,7 @@ This score would adjust similar to a credit rating; as time passes and data is a
 
 Providing a standardized industry base score based on data used and generated, for the sakes of faciliting transparent pricing, affordability and incentivizing safe driving to reduce the liklihood of someone engaging in risky driving behavior.
 
-For insurance, insurance should follow people and not specifically the car; a user with multiple cars should __not__ need multiple policies.
+For insurance, insurance should follow people and not specifically the car; a user with multiple cars should __not__ need multiple policies. Similarly a driver below 25 years of age should not be charged a premium disproportinate to their income, leading to a lapse in coverage(s).
 
 
 # Mission Objective
