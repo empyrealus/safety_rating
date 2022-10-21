@@ -2,9 +2,9 @@
 # Driver Safety Ratings (DSR) - Database
 
 # Abstract: 
-Provide a composite score for the purposes of indicating as to whether a driver is a *safe* driver or not.
+Provide a composite score to organizations for the purposes of indicating as to whether a driver is a *safe* driver or not; provide composite score to the drivers to assess their current driving profile.
 
-This score would adjust similar to a credit rating; as time passes and data is appended, the users driver rating will change overtime.
+This score would adjust similar to a credit rating; as time passes and data is appended, the users driver rating will change overtime. 
 
 
 # Mission Statement
