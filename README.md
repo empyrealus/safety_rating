@@ -37,18 +37,36 @@ __Note__
 > A driver should **never** be denied coverage or charged so excessively that coverage be deemed unobtainable, when using the score profile to assess liability.
 
 ### Jobs
+- Maintain data (enter,update, and delete) data on staff
+- Maintain data (enter,update, and delete) data on organizations_internal
+- Maintain data (enter,update, and delete) data on organizations_external
 - Maintain data (enter,update, and delete) data on drivers
 - Maintain data (enter,update, and delete) data on claims
 - Maintain data (enter,update, and delete) data on driving experience
 - To perform searches on drivers
 - To perform searches on claims
 - To perform searches on driving experience
+- To perform searches on staff
+- To perform searches on organizations_internal
+- To perform searches on organizations_external
 - To track status of drivers
 - To track status ofclaims
 - To track status of driving experience
+- To track status of organizations_external
+- To track status of organizations_internal
+- To track status of staff
 - To report on drivers
 - To report on claims
 - To report on driving experience
+- To report on organizations_external
+- To report on organizations_internal
+- To report on staff
+
+### Actors
+- Staff
+- Ogranizations (internal e.g. a different branch)
+- Organizations (external e.g. third-parties)
+- Drivers
 
 # Features Format and View in Tubular format
 
